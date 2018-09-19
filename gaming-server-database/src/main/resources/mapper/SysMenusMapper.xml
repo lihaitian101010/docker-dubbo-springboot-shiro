@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bonc.ttms.gaming.server.database.mapper.SysMenusMapper">
+  <resultMap id="BaseResultMap" type="com.bonc.ttms.gaming.server.database.domain.SysMenus">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="url" jdbcType="VARCHAR" property="url" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="sort" jdbcType="INTEGER" property="sort" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="parentId" jdbcType="INTEGER" property="parentid" />
+    <result column="permission" jdbcType="VARCHAR" property="permission" />
+    <result column="createdTime" jdbcType="TIMESTAMP" property="createdtime" />
+    <result column="modifiedTime" jdbcType="TIMESTAMP" property="modifiedtime" />
+    <result column="createdUser" jdbcType="VARCHAR" property="createduser" />
+    <result column="modifiedUser" jdbcType="VARCHAR" property="modifieduser" />
+  </resultMap>
+</mapper>

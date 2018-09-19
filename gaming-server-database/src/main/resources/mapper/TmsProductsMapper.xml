@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bonc.ttms.gaming.server.database.mapper.TmsProductsMapper">
+  <resultMap id="BaseResultMap" type="com.bonc.ttms.gaming.server.database.domain.TmsProducts">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="code" jdbcType="VARCHAR" property="code" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="teamId" jdbcType="INTEGER" property="teamid" />
+    <result column="exText" jdbcType="VARCHAR" property="extext" />
+    <result column="onlineDate" jdbcType="DATE" property="onlinedate" />
+    <result column="offlineDate" jdbcType="DATE" property="offlinedate" />
+    <result column="quantity" jdbcType="INTEGER" property="quantity" />
+    <result column="minQty" jdbcType="INTEGER" property="minqty" />
+    <result column="soldQty" jdbcType="INTEGER" property="soldqty" />
+    <result column="price" jdbcType="DECIMAL" property="price" />
+    <result column="classId" jdbcType="INTEGER" property="classid" />
+    <result column="nights" jdbcType="INTEGER" property="nights" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="createdUser" jdbcType="VARCHAR" property="createduser" />
+    <result column="createdTime" jdbcType="TIMESTAMP" property="createdtime" />
+    <result column="modifiedUser" jdbcType="VARCHAR" property="modifieduser" />
+    <result column="modifiedTime" jdbcType="TIMESTAMP" property="modifiedtime" />
+  </resultMap>
+</mapper>
